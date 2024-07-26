@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeDuplicatesfromSortedArray",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesfromSortedArray.removeDuplicatesfromSortedArray",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "SortTheJumbledNumbers",
             "request": "launch",
             "mainClass": "SortTheJumbledNumbers.SortTheJumbledNumbers",
