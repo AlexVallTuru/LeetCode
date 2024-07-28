@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar y Ejecutar Java",
+            "type": "shell",
+            "command": "javac ${file} && java ${fileDirname}/${fileBasenameNoExtension}",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$javac"],
+            "detail": "Tarea para compilar y ejecutar cualquier archivo Java",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ]
+}
