@@ -9,7 +9,6 @@ public class bestTime {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello World!");
 
         int result = maxProfit(new int[] { 7, 1, 5, 3, 6, });
 
