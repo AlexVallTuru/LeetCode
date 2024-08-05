@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ransomNote",
+            "request": "launch",
+            "mainClass": "ransomNote",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "removeDuplicatesfromSortedArray",
             "request": "launch",
             "mainClass": "RemoveDuplicatesfromSortedArray.removeDuplicatesfromSortedArray",
