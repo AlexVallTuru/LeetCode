@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "howManyNumbersAreSmaller",
+            "request": "launch",
+            "mainClass": "howManyNumbersAreSmaller",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "ransomNote",
             "request": "launch",
             "mainClass": "ransomNote",
