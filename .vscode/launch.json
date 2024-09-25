@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortingtheSentence",
+            "request": "launch",
+            "mainClass": "sortingtheSentence",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "integertoRoman",
             "request": "launch",
             "mainClass": "IntegertoRoman.integertoRoman",
