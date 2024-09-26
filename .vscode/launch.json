@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maximumNumberofCoins",
+            "request": "launch",
+            "mainClass": "MaximumNumberofCoins.maximumNumberofCoins",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "sortingtheSentence",
             "request": "launch",
             "mainClass": "sortingtheSentence",
