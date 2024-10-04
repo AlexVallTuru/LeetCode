@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "dividePlayerEqualSkill",
+            "request": "launch",
+            "mainClass": "DividePlayersIntoTeamsofEqualSkill.dividePlayerEqualSkill",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "rankTransformArray",
             "request": "launch",
             "mainClass": "rankTransformArray",
