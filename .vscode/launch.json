@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "minimumNumberofSwaps",
+            "request": "launch",
+            "mainClass": "MinimumNumberofSwaps.minimumNumberofSwaps",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "minimumStringLength",
             "request": "launch",
             "mainClass": "MinimumStringLength.minimumStringLength",
