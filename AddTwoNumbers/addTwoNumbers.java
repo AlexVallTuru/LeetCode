@@ -8,37 +8,36 @@ public class addTwoNumbers {
 
     public ListNode adddTwoNumbers(ListNode l1, ListNode l2) {
 
-        ListNode curr1 = l1;
-        ListNode curr2 = l2;
-
-        ListNode sol = new ListNode(-1);
-        ListNode solHead = sol;
-
         int carry = 0;
 
-        while (curr1 != null || curr2 != null) {
-            int sum = carry;
+        return createListResult(l1, l2, carry);
 
-            if (curr1 != null) {
-                sum += curr1.val;
-                curr1 = curr1.next;
-            }
+    }
 
-            if (curr2 != null) {
-                sum += curr2.val;
-                curr2 = curr2.next;
-            }
+    private ListNode createListResult(ListNode l1, ListNode l2, int carry) {
 
-            carry = sum / 10;
-            sol.next = new ListNode(sum % 10);
-            sol = sol.next;
+        if (l1 == null && l2 == null && carry == 0) {
+            return null;
         }
 
-        if (carry != 0) {
-            sol.next = new ListNode(carry);
-        }
+        int sum = carry;
 
-        return solHead.next;
+        if (l1 != null) {
+            sum += l1.val;
+            l1 = l1.next;
+        }
+        if (l2 != null) {
+            sum += l2.val;
+            l2 = l2.next;
+        }
+        
+        ListNode result = new ListNode(sum % 10);
+        carry = sum / 10;
+
+        result.next = createListResult(l1, l2, carry);
+
+        return result;
+
     }
 
     public class ListNode {
