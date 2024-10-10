@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maximunWidthRamp",
+            "request": "launch",
+            "mainClass": "MaximunWidthRamp.maximunWidthRamp",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "minimumAddParentheses",
             "request": "launch",
             "mainClass": "minimumAddParentheses",
