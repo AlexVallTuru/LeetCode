@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "searchInsertPosition",
+            "request": "launch",
+            "mainClass": "SearchInsertPosition.searchInsertPosition",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
+            "name": "increasingTripletSubsequence",
+            "request": "launch",
+            "mainClass": "IncreasingTripletSubsequence.increasingTripletSubsequence",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "maximunWidthRamp",
             "request": "launch",
             "mainClass": "MaximunWidthRamp.maximunWidthRamp",
