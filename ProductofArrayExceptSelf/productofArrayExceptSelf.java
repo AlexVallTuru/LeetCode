@@ -13,12 +13,21 @@ public class productofArrayExceptSelf {
 
         int[] result = new int[len];
 
-        for (int j = 1; j < len; j++) {
+        result[0] = 1;
 
-        }
-        //este bucle va a la invera, segun las posiciones que haya recorrido el de arriba.
-        for (int i = 0; i < len; i++) {
+        for (int i = 1; i < len; i++) {
         
+            result[i] = result[i-1] * nums[i-1]; 
+        
+        }
+
+        int productRight = 1;
+
+        for(int i = len -1 ; i >= 0; i--){
+
+            result[i] = productRight * result[i];
+            productRight = productRight * nums[i];
+
         }
 
         return result;
