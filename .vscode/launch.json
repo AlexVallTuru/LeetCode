@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "longestHappyString",
+            "request": "launch",
+            "mainClass": "longestHappyString",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "separateBlackandWhiteBalls",
             "request": "launch",
             "mainClass": "SeparateBlackandWhiteBalls.separateBlackandWhiteBalls",
