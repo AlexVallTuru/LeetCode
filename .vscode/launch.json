@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maximumSwap",
+            "request": "launch",
+            "mainClass": "MaximumSwap.maximumSwap",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "longestHappyString",
             "request": "launch",
             "mainClass": "longestHappyString",
