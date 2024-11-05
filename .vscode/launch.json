@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinNumChanges",
+            "request": "launch",
+            "mainClass": "MinimumNumberofChanges.MinNumChanges",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "removeSubFoldersFilesystem",
             "request": "launch",
             "mainClass": "removeSubFoldersFilesystem",
