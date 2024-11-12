@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "permutationDifference",
+            "request": "launch",
+            "mainClass": "permutationDifference",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "jewelsAndStones",
             "request": "launch",
             "mainClass": "jewelsAndStones",
