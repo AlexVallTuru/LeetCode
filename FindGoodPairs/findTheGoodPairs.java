@@ -20,7 +20,6 @@ public class findTheGoodPairs {
                 }
             }
         }
-
         return count;
     }
 
