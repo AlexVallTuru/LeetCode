@@ -1,5 +1,8 @@
 package FindGoodPairs;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class findTheGoodPairs {
 
     public static void main(String[] args) {
@@ -12,12 +15,14 @@ public class findTheGoodPairs {
 
     public int numberOfPairs(int[] nums1, int[] nums2, int k) {
         int count = 0;
-
-        for (int i = 0; i < nums1.length; i++) {
-            for (int j = 0; j < nums2.length; j++) {
-                if (nums1[i] % (nums2[j] * k) == 0) {
-                    count++;
-                }
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int num : nums1)
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        int len = nums2.length;
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            for (int i = 0; i < len; i++) {
+                if (entry.getKey() % (nums2[i] * k) == 0)
+                    count += entry.getValue();
             }
         }
         return count;
