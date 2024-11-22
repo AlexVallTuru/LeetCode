@@ -47,5 +47,3 @@ public class findDiffTwoArr {
         return result;
     }
 }
-
-}

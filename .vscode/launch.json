@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "longestSubstringWithoutRepeating",
+            "request": "launch",
+            "mainClass": "longestSubstringWithoutRepeating",
+            "projectName": "LeetCode_27b3e061"
+        },
+        {
+            "type": "java",
             "name": "findTheGoodPairs",
             "request": "launch",
             "mainClass": "FindGoodPairs.findTheGoodPairs",
